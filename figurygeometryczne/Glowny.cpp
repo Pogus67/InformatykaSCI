@@ -88,7 +88,7 @@ int main()
 			std::cin >> d;
 
 			trojkatwybor.obwod(a, b, c);
-			trojkatwybor.pole(a, c, d);
+			trojkatwybor.pole(a, d);
 
 			std::cout << "|---------------------------------------------------------|" << std::endl;
 		}
