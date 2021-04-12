@@ -5,6 +5,7 @@
 #include "Trojkat.h"
 #include "Szescian.h"
 
+// github - https://github.com/Pogus67/InformatykaSCI
 
 int main()
 {
@@ -73,7 +74,7 @@ int main()
 		}
 		else if (wyba == 4)
 		{
-			Trapez trapezwybor;
+			Trojkat trojkatwybor;
 			unsigned int a, b, c, d;
 			std::cout << "|-------------------------Trojkat-------------------------|" << std::endl;
 			std::cout << "Wpisz wartosci" << std::endl;
@@ -86,8 +87,8 @@ int main()
 			std::cout << "Wysokosc: ";
 			std::cin >> d;
 
-			trapezwybor.obwod(a, b, c);
-			trapezwybor.pole(a, c, d);
+			trojkatwybor.obwod(a, b, c);
+			trojkatwybor.pole(a, c, d);
 
 			std::cout << "|---------------------------------------------------------|" << std::endl;
 		}
